@@ -184,13 +184,4 @@ def ausgabe():
             if arr[y][x]=='#' and  arr[y-1][x]=='#' and arr[y+1][x]=='#' and arr[y][x-1]=='#' and arr[y][x+1] =='#':
                 alignment+=x*y
     print(alignment)
-#ausgabe()
-#L,6,L,4,R,12,L,6,R,12,R,12,L,8,
-#A                B
-#L,6,L,4,R,12,L,6,L,10,L,10,L,6,L,6,R,12,R,12,L,8,
-#A                C                 B   
-#L,6,L,4,R,12,L,6,L,10,L,10,L,6,L,6,R,12,R,12,L,8,
-#A                C                 B 
-#L,6,L,4,R,12,L,6,L,10,L,10,L,6
-#A                C
-#
+
